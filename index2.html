@@ -1,0 +1,241 @@
+<html>
+
+<head>
+    <title>Web Programming Languages Assignment 2 Question 1</title>
+    <meta name="description" content="Web page for Sayan Guha, student at University of Texas at Dallas">
+    <meta name="keywords" content="UTD Graduate Student, Erik Jonsson School Of Engineering And Computer Science, Sayan Guha, Masters in Computer Science">
+    <style>
+        body {
+            color: green;
+        }
+        
+        section,
+        article {
+            padding-left: 10px;
+        }
+        
+        .navClass {
+            margin: 5.9%;
+        }
+        
+        a {
+            color: white;
+        }
+        
+        #navHeader {
+            background-color: orange;
+            padding: 10px;
+        }
+        
+        #navStudent {
+            text-align: right;
+            margin-left: 75%;
+            color: white;
+            font-size: 28px;
+        }
+        
+        .navLinks {
+            background-color: grey;
+            padding: 10px;
+        }
+        
+        ol li {
+            margin-top: 20px;
+        }
+        
+        ul li {
+            margin-top: 10px;
+        }
+        
+        li span {
+            font-weight: bold;
+        }
+        
+        table {
+            width: 50%;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+            border-collapse: collapse;
+        }
+        
+        .nameBox {
+            padding: 20px;
+            width: 250px;
+        }
+        
+        .radio {
+            margin-top: 10px;
+        }
+        
+        .button {
+            margin-top: 10px;
+            width: 80px;
+            height: 20px;
+        }
+        
+        .nameBox {
+            margin-top: 10px;
+            display: block;
+        }
+        
+        textarea {
+            border: 1px solid #ccc;
+        }
+        
+        #radioText {
+            font-weight: 700;
+            margin-top: 10px;
+        }
+        /*Footer CSS*/
+        
+        footer {
+            width: 98.5%;
+            padding: 10px 10px 10px 10px;
+            background-color: grey;
+            text-align: center;
+            color: white;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!---NAV-->
+    <nav id="navBar">
+        <div id="navHeader">
+            <img src="https://www.utdallas.edu/diversity/images/UTD_logo.png">
+            <header id="navStudent">
+                Sayan Guha
+            </header>
+        </div>
+        <div class="navLinks">
+            <a href="#interests" class="navClass">Interests</a>
+            <a href="#history" class="navClass">Educational History</a>
+            <a href="#publications" class="navClass">Certifications and Skills</a>
+            <a href="#courses" class="navClass">Courses Taken</a>
+            <a href="#contact" class="navClass">Contact me</a>
+        </div>
+    </nav>
+    <section>
+        <article name="interests" id="interests">
+            <header>
+                <h1>Interests</h1>
+            </header>
+        </article>
+
+        <article name="history" id="history">
+            <header>
+                <h1>Educational History</h1>
+            </header>
+            <ul>
+                <li>
+                    University of Texas at Dallas - Masters in Computer Science
+                </li>
+                <li>
+                    PES Institute of Technology - Bachelors in Computer Science
+                </li>
+            </ul>
+        </article>
+
+        <article name="publications" id="publications">
+            <header>
+                <h1>Certifications and Areas of Expertise</h1>
+            </header>
+            <ol>
+                <li>
+                    Certifications:
+                    <ul>
+                        <li>
+                            <span class="bold">Hadoop Starter Kit</span> offered by Udemy.
+                        </li>
+                        <li>
+                            <span class="bold">Introduction to Game Development</span> by Michigan State University on Coursera.
+                        </li>
+                        <li>
+                            <span class="bold">Creative Programming for Digital Media & Mobile Apps</span> by the University of London on Coursera.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Areas of Expertise:
+                    <ul>
+                        <li>
+                            <span class="bold">Languages:</span> C, C#, Java, Python, Javascript, HTML.
+                        </li>
+                        <li>
+                            <span class="bold">Familiar with</span>: AJAX, CSS, SAAS, Hadoop (MapReduce), Amazon Web Services (EC2).
+                        </li>
+                        <li>
+                            <span class="bold">Frameworks & tools</span>: Unity 3D, OpenStack, Django, Node.js, Angular.js, JQuery.
+                        </li>
+                        <li>
+                            <span class="bold">Databases</span>: MySQL, Cassandra, Firebase.
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </article>
+    </section>
+    <article id="courses">
+        <header>
+            <h1>Courses</h1>
+        </header>
+        <table>
+            <tr>
+                <th>Course Name</th>
+                <th>Semester</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>Web Programming Languages</td>
+                <td>Fall</td>
+                <td>2019</td>
+            </tr>
+            <tr>
+                <td>Database Design</td>
+                <td>Fall</td>
+                <td>2019</td>
+            </tr>
+            <tr>
+                <td>Discrete Systems</td>
+                <td>Fall</td>
+                <td>2019</td>
+            </tr>
+        </table>
+    </article>
+    <article id="contact">
+        <header>
+            <h1>Contact me</h1>
+        </header>
+        <form>
+            <input class="nameBox" type="text" placeholder="Please enter your Name" required="true">
+            <textarea class="nameBox" rows="4" cols="50" placeholder="Please Enter your message" required="true"></textarea>
+            <br>
+            <input type="checkbox" name="meeting" value="meeting" required> Have I met you before?
+            <div id="radioText">You are a?</div>
+            <input type="radio" class="radio" name="professor" value="Professor"> Professor
+            <br>
+            <input type="radio" class="radio" name="student" value="Student"> Student
+            <br>
+            <input type="radio" class="radio" name="professional" value="Professional"> Professional
+            <br>
+            <input type="reset" class="button">
+            <input type="submit" class="button">
+        </form>
+    </article>
+
+
+
+    <!--FOOTER-->
+    <footer>
+        Created at University of Texas at Dallas for CS 6314
+    </footer>
+</body>
+
+</html>
