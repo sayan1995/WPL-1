@@ -1,0 +1,146 @@
+ body {
+     color: green;
+ }
+ 
+ section,
+ article {
+     padding-left: 10px;
+ }
+ 
+ .navClass {
+     margin: 5.9%;
+ }
+ 
+ a {
+     color: white;
+ }
+ 
+ #navHeader {
+     background-color: orange;
+     padding: 10px;
+ }
+ 
+ #navStudent {
+     text-align: right;
+     margin-left: 75%;
+     color: white;
+     font-size: 28px;
+ }
+ 
+ .navLinks {
+     background-color: grey;
+     padding: 10px;
+ }
+ /*Descendent based selection*/
+ 
+ ol li {
+     margin-top: 20px;
+ }
+ 
+ ul li {
+     margin-top: 10px;
+ }
+ 
+ li span {
+     font-weight: bold;
+ }
+ /*-------*/
+ 
+ table {
+     width: 50%;
+ }
+ 
+ table,
+ th,
+ td {
+     border: 1px solid black;
+     text-align: center;
+     padding: 8px;
+     border-collapse: collapse;
+ }
+ 
+ #interests {
+     padding: 10px;
+ }
+ 
+ .nameBox {
+     padding: 20px;
+     width: 250px;
+ }
+ 
+ .radio {
+     margin-top: 10px;
+ }
+ 
+ .button {
+     margin-top: 10px;
+     width: 80px;
+     height: 20px;
+ }
+ 
+ .nameBox {
+     margin-top: 10px;
+     display: block;
+ }
+ 
+ #meet {
+     display: none;
+ }
+ 
+ .content {
+     display: none;
+     margin-top: 10px;
+ }
+ 
+ .cLink {
+     color: green;
+     text-decoration: none;
+ }
+ 
+ #c2-clink {
+     display: none;
+ }
+ 
+ .ani {
+     position: absolute;
+     width: 103px;
+     height: 70px;
+     border-radius: 50%;
+     text-align: center;
+     padding: 23px;
+     border: 1px solid green;
+     padding-top: 19px;
+     background-color: green;
+     color: white;
+     display: none;
+ }
+ /*Class + ID selection*/
+ 
+ .form1 #animation2 {
+     border-radius: initial;
+     color: green;
+     background-color: white;
+     border: 1px solid white;
+     margin-left: 300px;
+ }
+ 
+ .form #radioText {
+     font-weight: 700;
+     margin-top: 10px;
+ }
+ 
+ .form1 #nameV {
+     display: none;
+     margin-top: 10px;
+ }
+ /*-------*/
+ /*Footer CSS*/
+ 
+ footer {
+     width: 98.5%;
+     padding: 10px 10px 10px 10px;
+     background-color: grey;
+     text-align: center;
+     color: white;
+     margin-top: 10px;
+ }

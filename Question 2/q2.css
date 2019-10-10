@@ -16,14 +16,13 @@ th,
 td {
     border: 1px solid black;
     text-align: left;
-    padding: 0;
     padding: 8px;
 }
 
 #structure1 {
     margin-left: 50%;
-    margin-left: 14.4%;
-    width: 300px;
+    margin-left: 15.1%;
+    width: 299px;
     border: 2px solid black;
     display: inline-block;
     vertical-align: top;
@@ -45,12 +44,13 @@ td {
 }
 
 #sideStruct {
-    margin-left: 5px;
-    border: 1px dashed black;
+    border: 2px dashed black;
     margin-bottom: 5px;
     display: inline-block;
     padding: 0px;
     margin-top: 85px;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 2px;
 }
 
 #innerStruct1 {
@@ -63,16 +63,19 @@ td {
 }
 
 #innerStruct2 {
-    width: 50px;
-    margin: 10px 0px 0px 65px;
+    width: 54px;
+    margin: 10px 0px 0px 62px;
     padding: 10px 108px 10px 10px;
     text-decoration: underline;
     background-color: yellow;
     border: 2px solid black;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
 
 #innerBox1 {
-    padding-right: 54px;
+    padding-right: 51px;
     display: inline-block;
     margin-left: 21%;
     border: 2px solid black;
@@ -89,20 +92,20 @@ td {
     margin-left: 10px;
     padding: 10px;
     background-color: yellow;
-    padding-right: 109px;
+    padding-right: 118px;
     border: 2px solid black;
     border-right: 0px;
 }
 
 #span2 {
     border: 2px solid black;
-    padding: 10px 17px 10px 0px;
+    padding: 10px 11px 10px 0px;
 }
 
 #innerBox3 {
     margin-top: 11px;
     margin-left: 72px;
     border: 2px solid black;
-    width: 150px;
+    width: 153px;
     padding: 10px;
 }
