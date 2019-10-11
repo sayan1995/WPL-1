@@ -1,0 +1,75 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Web Programming Assignment - 3</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./shopping.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                <a class="navbar-brand" href="./index.html"><img src="">Shopping Website</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="./index.html">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="./profile.html">Profile</a></li>
+                    <li><a href="./orderHistory.html">Order History</a></li>
+                    <li><a href="./list.html">Shopping List page</a></li>
+                    <li class="active"><a href="./contactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="mycontainer container">
+        <div class="card">
+            <h1 class="heading-contact">Contact Us</h1>
+            <div>
+                <form>
+                    <div class="container-details row row-contact">
+                        <label class="details-l col-xs-12 label-text">Please Enter Your Email Address </label>
+                        <input type="text" class="details border-input col-xs-12 " required="required" />
+                    </div>
+                    <div class="container-details row row-contact">
+                        <span class="details-l col-xs-12 label-text" required="required"> Please Enter the Issue </span>
+                        <textarea type="text" class="details col-xs-12 border-input " required="required"></textarea>
+                    </div>
+                    <div class="container-details row row-contact">
+                        <label class="details-l col-xs-12 label-text">Please Enter The OrderID </label>
+                        <input type="text" class="details border-input col-xs-12" required="required" />
+                    </div>
+                    <button type="submit" class="btn btn-default profile-btn">Submit</button>
+                    <button type="Reset" class="btn btn-default profile-btn">Reset</button>
+                </form>
+            </div>
+            <hr>
+            <h3 class="heading-contact">Contact Information</h3>
+            <div class="container-details row">
+                <span class="details-l col-xs-12 col-sm-4">Email: </span>
+                <span class="details col-xs-12 col-sm-4">UTDsupport@utdallas.edu</span>
+            </div>
+            <div class="container-details row">
+                <span class="details-l col-xs-12 col-sm-4">Call: </span>
+                <span class="details col-xs-12 col-sm-4">+1 (469)-728-1791</span>
+            </div>
+        </div>
+</body>
+
+</html>
