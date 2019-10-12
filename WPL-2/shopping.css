@@ -11,6 +11,18 @@
 
 /*Genereic Elements*/
 
+.card {
+    overflow-x: scroll;
+}
+
+input[type=text]:disabled {
+    background: #ddd;
+}
+
+.table {
+    overflow-x: scroll;
+}
+
 .glyphicon {
     cursor: pointer;
 }
@@ -126,6 +138,57 @@ h4 {
 
 
 /*Close Profile CSS*/
+
+
+/*CSS for shopping list page*/
+
+.itemData {
+    padding: 8px;
+}
+
+.box-name {
+    width: 80%;
+}
+
+.box-qty {
+    width: 100px;
+}
+
+.list-btn {
+    font-size: 15px;
+}
+
+.list-add {
+    font-size: 20px;
+}
+
+.list-remove,
+.list-remove:hover,
+.list-remove:active,
+.list-remove:visited {
+    background-color: #c0392b!important;
+    color: #fff;
+}
+
+.list-edit:hover,
+.list-edit:active,
+.list-edit:visited,
+.list-edit {
+    background-color: #4CAF50!important;
+    color: #fff;
+}
+
+.list-add,
+.list-add:hover,
+.list-add:active,
+.list-add:visited,
+.list-add:focus {
+    background-color: #116dff!important;
+    color: #fff;
+}
+
+
+/*CSS end*/
 
 
 /*Media Queries*/

@@ -1,6 +1,6 @@
 var orderList = [{
         "number": "#167",
-        "description": "Latest Winter Coat works well even in sub zero temperatures",
+        "description": "Zara Winter Coat",
         "date": "Thu Jan 01 2015 00:00:00 GMT-0600 ",
         "price": "71$"
     },

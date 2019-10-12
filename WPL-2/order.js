@@ -118,30 +118,40 @@ $(document).ready(function() {
 
     }
 
-    function search(term, data, event) {
-        var searchList = [];
-        for (var i = 0; i < orderList.length; i++) {
-            if (data == "date") {
-                if (orderList[i][data].replace('00:00:00 GMT-0600', '').toLowerCase().indexOf(term) != -1) {
-                    console.log(orderList[i][data]);
-                    console.log(orderList[i][data].toLowerCase().indexOf(term));
-                    searchList.push(orderList[i]);
-                } else {
 
-                }
-            } else {
-                if ((orderList[i][data]).toLowerCase().indexOf(term) != -1) {
-                    console.log(orderList[i][data]);
-                    console.log(orderList[i][data].toLowerCase().indexOf(term));
-                    searchList.push(orderList[i]);
-                    //$('#row-' + (i + 1)).show();
-                    //$('#row-' + (i + 1)).addClass('active');
+    function search(term, data, dataList) {
+
+        var searchList = [];
+        var searchOrderList = orderList;
+        for (var i = 0; i < searchOrderList.length; i++) {
+            var flag = true;
+            for (var j = 0; j < dataList.length; j++) {
+                if (dataList[j].column == "date") {
+                    if (searchOrderList[i][dataList[j].column].replace('00:00:00 GMT-0600', '').toLowerCase().indexOf(dataList[j].term) != -1) {
+                        flag = flag && true;
+                    } else {
+                        flag = flag && false;
+                    }
                 } else {
-                    //$('#row-' + (i + 1)).hide();
-                    //$('#row-' + (i + 1)).removeClass('active');
+                    if ((searchOrderList[i][dataList[j].column]).toLowerCase().indexOf(dataList[j].term) != -1) {
+                        flag = flag && true;
+                        //$('#row-' + (i + 1)).show();
+                        //$('#row-' + (i + 1)).addClass('active');
+                    } else {
+                        flag = flag && false;
+                        //$('#row-' + (i + 1)).hide();
+                        //$('#row-' + (i + 1)).removeClass('active');
+                    }
                 }
             }
+            if (flag == true) {
+                searchList.push(searchOrderList[i]);
+            }
+
         }
+        searchList = searchList.filter(function(item, pos) {
+            return searchList.indexOf(item) == pos;
+        })
         console.log(searchList);
         sortList = searchList;
 
@@ -151,19 +161,42 @@ $(document).ready(function() {
     function filterListeners() {
         $('.glyphicon-filter').click(function() {
             if ($(this).hasClass('number-filter')) {
+                $('#numberF').toggleClass('active');
                 $('#numberF').toggle();
             } else if ($(this).hasClass('desc-filter')) {
+                $('#descF').toggleClass('active');
                 $('#descF').toggle();
             } else if ($(this).hasClass('dd-filter')) {
+                $('#dateF').toggleClass('active');
                 $('#dateF').toggle();
             } else {
+                $('#priceF').toggleClass('active');
                 $('#priceF').toggle();
             }
 
         });
 
         $('.filterBox').keyup(function(event) {
-            search($(this).val(), $(this).attr('data'), event);
+            var list = $('.filterBox');
+            var index = 0;
+            var flag = false;
+            var dataList = [];
+            for (var i = 0; i < list.length; i++) {
+                if ($(list[i]).hasClass('active')) {
+                    dataList.push({
+                        "column": $(list[i]).attr('data'),
+                        "term": $(list[i]).val()
+                    });
+                }
+            }
+            console.log(dataList);
+            if (index > 1) {
+                flag = true;
+            } else {
+                flag = false
+            }
+
+            search($(this).val(), $(this).attr('data'), dataList);
         });
     }
     /*call functions*/
