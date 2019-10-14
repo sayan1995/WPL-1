@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./shopping.css" />
+    <link rel="stylesheet" type="text/css" href="../shopping.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
@@ -23,16 +23,16 @@
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
                         </button>
-                <a class="navbar-brand" href="./index.html"><img src="">Shopping Website</a>
+                <a class="navbar-brand" href="../index.html"><img src="">Shopping Website</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="./index.html">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="../index.html">Home <span class="sr-only">(current)</span></a></li>
                     <li><a href="./profile.html">Profile</a></li>
-                    <li><a href="./orderHistory.html">Order History</a></li>
-                    <li class="active" href="./list.html"><a href="#">Shopping List page</a></li>
+                    <li class="active" href="./orderHistory.html"><a href="#">Order History</a></li>
+                    <li><a href="./list.html">Shopping List page</a></li>
                     <li><a href="./contactUs.html">Contact Us</a></li>
                 </ul>
             </div>
@@ -40,38 +40,44 @@
     </nav>
     <div class="mycontainer container container-order">
         <div class="card">
-            <h3 class="heading-left">Item List</h3>
+            <h3 class="heading-left">Order History</h3>
             <h4>Displaying -&nbsp;<span class="entries">25</span>&nbsp;Entries</h4>
             <table class="table">
                 <thead>
                     <tr>
-                        <th>Item Name &nbsp;
+                        <th>Number &nbsp;
+                            <span class="glyphicon glyphicon-sort number-sort"></span> &nbsp;
+                            <span class="glyphicon glyphicon-filter number-filter"></span>
+                            <br>
+                            <input type="text" class="filterBox" id="numberF" data="number" />
                         </th>
-                        <th>Item Quantity &nbsp;
+                        <th>Description &nbsp;
+                            <span class="glyphicon glyphicon-sort desc-sort"></span> &nbsp;
+                            <span class="glyphicon glyphicon-filter desc-filter"></span>
+                            <br>
+                            <input type="text" class="filterBox" id="descF" data="description" />
                         </th>
-                        <th>Item Required Date &nbsp;
+                        <th>Delivery Date &nbsp;
+                            <span class="glyphicon glyphicon-sort dd-sort"></span> &nbsp;
+                            <span class="glyphicon glyphicon-filter dd-filter"></span>
+                            <br>
+                            <input type="text" class="filterBox" id="dateF" data="date" />
                         </th>
-                        <th>
-
+                        <th>Total Price &nbsp;
+                            <span class="glyphicon glyphicon-sort tp-sort"></span> &nbsp;
+                            <span class="glyphicon glyphicon-filter tp-filter"></span>
+                            <br>
+                            <input type="text" class="filterBox" id="priceF" data="price" />
                         </th>
                     </tr>
                 </thead>
-                <tbody class="itemTable">
+                <tbody class="orderTable">
                 </tbody>
-                <tfoot>
-                    <tr>
-                        <td>
-                            <button type="button" class="btn btn-default btn-sm list-btn list-add">
-                                            <span class="glyphicon glyphicon-plus"></span> Add Row
-                                </button>
-                        </td>
-                    </tr>
-                </tfoot>
             </table>
         </div>
     </div>
+    <script src="../js/orderListObject.js"></script>
+    <script src="../js/order.js"></script>
 </body>
-<script src="itemList.js "></script>
-<script src="shoppingList.js "></script>
 
 </html>

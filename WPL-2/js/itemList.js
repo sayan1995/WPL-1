@@ -1,3 +1,4 @@
+/*items object which contains the list of items on the site to be displayed in table*/
 var itemList = [{
         "date": "Thu Jan 01 2019 00:00:00 GMT-0600 ",
         "qty": "4",

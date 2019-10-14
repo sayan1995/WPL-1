@@ -1,6 +1,7 @@
 $(document).ready(function() {
     var orders = itemList;
 
+    /*display table of items*/
     function display() {
         $('.itemTable').empty();
         $('.entries').text(orders.length);
@@ -8,9 +9,9 @@ $(document).ready(function() {
             console.log("s");
             var row = '<tr class="itemRow" id="row-' + (i + 1) + '"></tr>';
             $('.itemTable').append(row);
-            var data = "<td><input class='itemData-row-" + (i + 1) + "' box-name' type='text' value='" + orders[i].name + "' disabled=disabled></td>";
-            data = data + "<td><input class='itemData-row-" + (i + 1) + "' box-qty' type='text' value='" + orders[i].qty + "' disabled=disabled></td>";
-            data = data + "<td><input class='itemData-row-" + (i + 1) + "' box-date' type='text' value='" + (orders[i].date).replace('00:00:00 GMT-0600', '').replace(' ', ', ') + "' disabled=disabled></td>";
+            var data = "<td><input class='itemBox itemData-row-" + (i + 1) + "' box-name' type='text' value='" + orders[i].name + "'</td>";
+            data = data + "<td><input class='itemBox itemData-row-" + (i + 1) + "' box-qty' type='text' value='" + orders[i].qty + "'></td>";
+            data = data + "<td><input class='itemBox itemData-row-" + (i + 1) + "' box-date' type='text' value='" + (orders[i].date).replace('00:00:00 GMT-0600', '').replace(' ', ', ') + "'></td>";
             data = data + "<td> <button type='button ' class='btn btn-default btn-sm list-btn list-remove' data='row-" + (i + 1) + "'>\
             <span class='glyphicon glyphicon-remove '></span> Remove\
             </button>\
@@ -19,6 +20,7 @@ $(document).ready(function() {
         }
     }
 
+    /*register event listeners to add row and delete row*/
     function registerTableListeners() {
         $(".list-remove").off();
 
@@ -26,12 +28,6 @@ $(document).ready(function() {
             var This = $(this).attr('data');
             $('#' + This).remove();
             $('.entries').text(parseInt($('.entries').text()) - 1);
-        });
-
-        $(".itemRow").off();
-        $('.itemRow').click(function() {
-            var temp = $(this).attr('id');
-            $('.itemData-' + temp).removeAttr('disabled');
         });
 
         $(".list-add").off();
@@ -46,9 +42,9 @@ $(document).ready(function() {
 
             var row = '<tr class="itemRow" id="row-' + (n + 1) + '"></tr>';
             $('tbody').append(row);
-            var data = "<td><input class='itemData-row-" + (n + 1) + "' box-name' type='text' value='" + dummy.name + "' disabled=disabled></td>";
-            data = data + "<td><input class='itemData-row-" + (n + 1) + "' box-qty' type='text' value='" + dummy.qty + "' disabled=disabled></td>";
-            data = data + "<td><input class='itemData-row-" + (n + 1) + "' box-date' type='text' value='" + (dummy.date).replace('00:00:00 GMT-0600', '').replace(' ', ' ') + "' disabled=disabled></td>";
+            var data = "<td><input class='itemBox itemData-row-" + (n + 1) + " box-name' type='text' placeholder='Enter Product Name' value='" + dummy.name + "'></td>";
+            data = data + "<td><input class='itemBox itemData-row-" + (n + 1) + " box-qty' type='text' value='" + dummy.qty + "'></td>";
+            data = data + "<td><input class='itemBox itemData-row-" + (n + 1) + " box-date' type='text' value='" + (dummy.date).replace('00:00:00 GMT-0600', '').replace(' ', ' ') + "'></td>";
             data = data + "<td> <button type='button ' class='btn btn-default btn-sm list-btn list-remove' data='row-" + (n + 1) + "'>\
             <span class='glyphicon glyphicon-remove '></span> Remove\
             </button>\
@@ -56,10 +52,11 @@ $(document).ready(function() {
             $('#row-' + (n + 1)).append(data);
             $('.entries').text(parseInt($('.entries').text()) + 1);
             registerTableListeners();
+            $($('.itemData-row-' + (n + 1))[0]).focus();
         });
     }
 
-
+    /*function calls*/
     display();
     registerTableListeners();
 });

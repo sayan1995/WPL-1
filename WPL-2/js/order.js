@@ -1,6 +1,7 @@
 $(document).ready(function() {
     var sortList = orderList;
 
+    /*function to change the color of the table row on mousenter and mouse leave*/
     function tableEventListener() {
         $('.orderRow').mouseenter(function() {
             $(this).css('background-color', '#dee4e7');
@@ -11,6 +12,7 @@ $(document).ready(function() {
         });
     }
 
+    /*function to create table from javascript object*/
     function display(orders) {
         $('.orderTable').empty();
         $('.entries').text(orders.length);
@@ -28,8 +30,10 @@ $(document).ready(function() {
         tableEventListener();
     }
 
+    /*functions which contain eventlistener for sorting table values*/
     function sortFields() {
 
+        /*sort by the order number*/
         $('.number-sort').click(function() {
             var orderList = sortList;
             if ($(this).hasClass('asc')) {
@@ -51,6 +55,7 @@ $(document).ready(function() {
             }
         });
 
+        /*sort by the description*/
         $('.desc-sort').click(function() {
             var orderList = sortList;
             if ($(this).hasClass('asc')) {
@@ -74,6 +79,7 @@ $(document).ready(function() {
             }
         });
 
+        /*sort by date */
         $('.dd-sort').click(function() {
             var orderList = sortList;
             if ($(this).hasClass('asc')) {
@@ -95,6 +101,7 @@ $(document).ready(function() {
             }
         });
 
+        /*sort by price*/
         $('.tp-sort').click(function() {
             var orderList = sortList;
             if ($(this).hasClass('asc')) {
@@ -119,6 +126,7 @@ $(document).ready(function() {
     }
 
 
+    /*function to filter based on a term in a column*/
     function search(term, data, dataList) {
 
         var searchList = [];
@@ -127,20 +135,16 @@ $(document).ready(function() {
             var flag = true;
             for (var j = 0; j < dataList.length; j++) {
                 if (dataList[j].column == "date") {
-                    if (searchOrderList[i][dataList[j].column].replace('00:00:00 GMT-0600', '').toLowerCase().indexOf(dataList[j].term) != -1) {
+                    if (searchOrderList[i][dataList[j].column].replace('00:00:00 GMT-0600', '').toLowerCase().indexOf((dataList[j].term).toLowerCase()) != -1) {
                         flag = flag && true;
                     } else {
                         flag = flag && false;
                     }
                 } else {
-                    if ((searchOrderList[i][dataList[j].column]).toLowerCase().indexOf(dataList[j].term) != -1) {
+                    if ((searchOrderList[i][dataList[j].column]).toLowerCase().indexOf((dataList[j].term).toLowerCase()) != -1) {
                         flag = flag && true;
-                        //$('#row-' + (i + 1)).show();
-                        //$('#row-' + (i + 1)).addClass('active');
                     } else {
                         flag = flag && false;
-                        //$('#row-' + (i + 1)).hide();
-                        //$('#row-' + (i + 1)).removeClass('active');
                     }
                 }
             }
@@ -149,15 +153,13 @@ $(document).ready(function() {
             }
 
         }
-        searchList = searchList.filter(function(item, pos) {
-            return searchList.indexOf(item) == pos;
-        })
-        console.log(searchList);
+
         sortList = searchList;
 
         display(searchList);
     }
 
+    /*functions which contain Event listener to click on filter*/
     function filterListeners() {
         $('.glyphicon-filter').click(function() {
             if ($(this).hasClass('number-filter')) {
@@ -199,6 +201,7 @@ $(document).ready(function() {
             search($(this).val(), $(this).attr('data'), dataList);
         });
     }
+
     /*call functions*/
     display(orderList);
     sortFields();

@@ -1,3 +1,4 @@
+/*orders object which contains the data for table*/
 var orderList = [{
         "number": "#167",
         "description": "Zara Winter Coat",
