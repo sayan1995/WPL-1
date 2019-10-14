@@ -30,10 +30,11 @@ $(document).ready(function() {
 
         $(".itemRow").off();
         $('.itemRow').click(function() {
-            var temp = $(this).attr('id')
+            var temp = $(this).attr('id');
             $('.itemData-' + temp).removeAttr('disabled');
         });
 
+        $(".list-add").off();
         $('.list-add').click(function() {
             var n = orders.length;
             var dummy = {
