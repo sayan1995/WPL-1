@@ -1,1003 +1,1003 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <stocks>
-    <stock>
-        <symbol>RJA</symbol>
-        <released_date>37326</released_date>
-        <price>458</price>
-        <company>
-            <name>Walmart</name>
-            <total>151</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>QWH</symbol>
-        <released_date>37806</released_date>
-        <price>659</price>
-        <company>
-            <name>Exxon Mobil</name>
-            <total>3036</total>
-            <country>China</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>YFB</symbol>
-        <released_date>38138</released_date>
-        <price>825</price>
-        <company>
-            <name>Berkshire Hathaway</name>
-            <total>6482</total>
-            <country>China</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>XTN</symbol>
-        <released_date>38777</released_date>
-        <price>809</price>
-        <company>
-            <name>Apple</name>
-            <total>1996</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>TZX</symbol>
-        <released_date>38877</released_date>
-        <price>75</price>
-        <company>
-            <name>UnitedHealth Group</name>
-            <total>178</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>TVB</symbol>
-        <released_date>39062</released_date>
-        <price>928</price>
-        <company>
-            <name>Mcgill</name>
-            <total>6340</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>GFD</symbol>
-        <released_date>39080</released_date>
-        <price>527</price>
-        <company>
-            <name>CVS Health</name>
-            <total>2284</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>TVX</symbol>
-        <released_date>39205</released_date>
-        <price>284</price>
-        <company>
-            <name>Amazon</name>
-            <total>2495</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>KVB</symbol>
-        <released_date>39210</released_date>
-        <price>215</price>
-        <company>
-            <name>ATT</name>
-            <total>9065</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>KEE</symbol>
-        <released_date>39490</released_date>
-        <price>881</price>
-        <company>
-            <name>General Motors</name>
-            <total>1571</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>GSL</symbol>
-        <released_date>40015</released_date>
-        <price>346</price>
-        <company>
-            <name>Ford Motor</name>
-            <total>4806</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>WAC</symbol>
-        <released_date>40136</released_date>
-        <price>550</price>
-        <company>
-            <name>Walmart</name>
-            <total>1752</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>MBZ</symbol>
-        <released_date>40851</released_date>
-        <price>694</price>
-        <company>
-            <name>Chevron</name>
-            <total>1755</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>UOB</symbol>
-        <released_date>41257</released_date>
-        <price>894</price>
-        <company>
-            <name>Cardinal Health</name>
-            <total>2300</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>MDM</symbol>
-        <released_date>41317</released_date>
-        <price>466</price>
-        <company>
-            <name>Costco</name>
-            <total>8675</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>ZST</symbol>
-        <released_date>41407</released_date>
-        <price>943</price>
-        <company>
-            <name>Verizon</name>
-            <total>2398</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>JRH</symbol>
-        <released_date>42009</released_date>
-        <price>764</price>
-        <company>
-            <name>Kroger</name>
-            <total>1721</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>WHP</symbol>
-        <released_date>42013</released_date>
-        <price>429</price>
-        <company>
-            <name>General Electric</name>
-            <total>3437</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>OGG</symbol>
-        <released_date>42412</released_date>
-        <price>602</price>
-        <company>
-            <name>Walgreens Boots Alliance</name>
-            <total>27</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>TXK</symbol>
-        <released_date>42494</released_date>
-        <price>994</price>
-        <company>
-            <name>JPMorgan Chase</name>
-            <total>2836</total>
-            <country>China</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>KKW</symbol>
-        <released_date>42613</released_date>
-        <price>56</price>
-        <company>
-            <name>Fannie Mae</name>
-            <total>6666</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>GNV</symbol>
-        <released_date>42759</released_date>
-        <price>793</price>
-        <company>
-            <name>Alphabet</name>
-            <total>8749</total>
-            <country>China</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>BEF</symbol>
-        <released_date>42864</released_date>
-        <price>753</price>
-        <company>
-            <name>Home Depot</name>
-            <total>1986</total>
-            <country>China</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>ROQ</symbol>
-        <released_date>43536</released_date>
-        <price>986</price>
-        <company>
-            <name>Bank of America Corp.</name>
-            <total>3670</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>SOX</symbol>
-        <released_date>43557</released_date>
-        <price>326</price>
-        <company>
-            <name>Express Scripts Holding</name>
-            <total>9759</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>AUA</symbol>
-        <released_date>37322</released_date>
-        <price>52</price>
-        <company>
-            <name>Wells Fargo</name>
-            <total>1589</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>CIE</symbol>
-        <released_date>37587</released_date>
-        <price>438</price>
-        <company>
-            <name>Boeing</name>
-            <total>7895</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>VCJ</symbol>
-        <released_date>37855</released_date>
-        <price>925</price>
-        <company>
-            <name>Phillips 66</name>
-            <total>3781</total>
-            <country>China</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>KUL</symbol>
-        <released_date>38398</released_date>
-        <price>556</price>
-        <company>
-            <name>Anthem</name>
-            <total>637</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>SNT</symbol>
-        <released_date>38621</released_date>
-        <price>367</price>
-        <company>
-            <name>Microsoft</name>
-            <total>4505</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>VTA</symbol>
-        <released_date>38852</released_date>
-        <price>135</price>
-        <company>
-            <name>Valero Energy</name>
-            <total>8437</total>
-            <country>China</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>VLP</symbol>
-        <released_date>38933</released_date>
-        <price>933</price>
-        <company>
-            <name>Citigroup</name>
-            <total>7149</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>HWR</symbol>
-        <released_date>39077</released_date>
-        <price>827</price>
-        <company>
-            <name>Comcast</name>
-            <total>8596</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>CQW</symbol>
-        <released_date>39315</released_date>
-        <price>676</price>
-        <company>
-            <name>IBM</name>
-            <total>8290</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>YVA</symbol>
-        <released_date>39384</released_date>
-        <price>371</price>
-        <company>
-            <name>Dell Technologies</name>
-            <total>9749</total>
-            <country>China</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>HCN</symbol>
-        <released_date>39387</released_date>
-        <price>18</price>
-        <company>
-            <name>State Farm Insurance Cos.</name>
-            <total>4800</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>GAX</symbol>
-        <released_date>39401</released_date>
-        <price>713</price>
-        <company>
-            <name>Johnson</name>
-            <total>2980</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>GZV</symbol>
-        <released_date>39447</released_date>
-        <price>59</price>
-        <company>
-            <name>Freddie Mac</name>
-            <total>5756</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>TZG</symbol>
-        <released_date>39597</released_date>
-        <price>850</price>
-        <company>
-            <name>Target</name>
-            <total>1882</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>FDX</symbol>
-        <released_date>39615</released_date>
-        <price>43</price>
-        <company>
-            <name>Lowes</name>
-            <total>69</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>KMP</symbol>
-        <released_date>39925</released_date>
-        <price>98</price>
-        <company>
-            <name>Marathon Petroleum</name>
-            <total>3715</total>
-            <country>China</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>SHZ</symbol>
-        <released_date>39960</released_date>
-        <price>129</price>
-        <company>
-            <name>Procter</name>
-            <total>2812</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>ZUU</symbol>
-        <released_date>40247</released_date>
-        <price>118</price>
-        <company>
-            <name>MetLife</name>
-            <total>7397</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>OFQ</symbol>
-        <released_date>40401</released_date>
-        <price>144</price>
-        <company>
-            <name>UPS</name>
-            <total>939</total>
-            <country>China</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>CQH</symbol>
-        <released_date>41348</released_date>
-        <price>216</price>
-        <company>
-            <name>PepsiCo</name>
-            <total>6249</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>NZC</symbol>
-        <released_date>41534</released_date>
-        <price>361</price>
-        <company>
-            <name>Intel</name>
-            <total>8013</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>KGX</symbol>
-        <released_date>42614</released_date>
-        <price>508</price>
-        <company>
-            <name>DowDuPont</name>
-            <total>8716</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>HRT</symbol>
-        <released_date>42803</released_date>
-        <price>792</price>
-        <company>
-            <name>Archer Daniels Midland</name>
-            <total>8004</total>
-            <country>China</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>DQS</symbol>
-        <released_date>42870</released_date>
-        <price>419</price>
-        <company>
-            <name>Aetna</name>
-            <total>4077</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>XFG</symbol>
-        <released_date>42417</released_date>
-        <price>210</price>
-        <company>
-            <name>FedEx</name>
-            <total>5061</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>XKV</symbol>
-        <released_date>42474</released_date>
-        <price>670</price>
-        <company>
-            <name>United Technologies</name>
-            <total>5093</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>IJT</symbol>
-        <released_date>42500</released_date>
-        <price>161</price>
-        <company>
-            <name>Prudential Financial</name>
-            <total>6786</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>DOF</symbol>
-        <released_date>42516</released_date>
-        <price>199</price>
-        <company>
-            <name>Albertsons Cos.</name>
-            <total>1689</total>
-            <country>China</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>EJG</symbol>
-        <released_date>42562</released_date>
-        <price>356</price>
-        <company>
-            <name>Sysco</name>
-            <total>352</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>XSJ</symbol>
-        <released_date>42695</released_date>
-        <price>907</price>
-        <company>
-            <name>Disney</name>
-            <total>9869</total>
-            <country>China</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>RBA</symbol>
-        <released_date>42696</released_date>
-        <price>647</price>
-        <company>
-            <name>Humana</name>
-            <total>6459</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>HMR</symbol>
-        <released_date>42765</released_date>
-        <price>963</price>
-        <company>
-            <name>Pfizer</name>
-            <total>2693</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>DCE</symbol>
-        <released_date>42781</released_date>
-        <price>567</price>
-        <company>
-            <name>HP</name>
-            <total>7733</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>TCI</symbol>
-        <released_date>42949</released_date>
-        <price>295</price>
-        <company>
-            <name>Lockheed Martin</name>
-            <total>89</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>MIC</symbol>
-        <released_date>43140</released_date>
-        <price>21</price>
-        <company>
-            <name>AIG</name>
-            <total>2065</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>XOF</symbol>
-        <released_date>43194</released_date>
-        <price>732</price>
-        <company>
-            <name>Centene</name>
-            <total>6525</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>YKZ</symbol>
-        <released_date>43228</released_date>
-        <price>806</price>
-        <company>
-            <name>Cisco Systems</name>
-            <total>5931</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>RAV</symbol>
-        <released_date>43333</released_date>
-        <price>252</price>
-        <company>
-            <name>HCA Healthcare</name>
-            <total>2057</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>MEI</symbol>
-        <released_date>43342</released_date>
-        <price>277</price>
-        <company>
-            <name>Energy Transfer Equity</name>
-            <total>436</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>UIB</symbol>
-        <released_date>43353</released_date>
-        <price>479</price>
-        <company>
-            <name>Caterpillar</name>
-            <total>1389</total>
-            <country>China</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>ZXC</symbol>
-        <released_date>43413</released_date>
-        <price>551</price>
-        <company>
-            <name>Nationwide</name>
-            <total>8431</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>OCS</symbol>
-        <released_date>43451</released_date>
-        <price>760</price>
-        <company>
-            <name>Morgan Stanley</name>
-            <total>5575</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>VRS</symbol>
-        <released_date>43602</released_date>
-        <price>585</price>
-        <company>
-            <name>Liberty Mutual Insurance Group</name>
-            <total>8349</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>RPZ</symbol>
-        <released_date>43755</released_date>
-        <price>647</price>
-        <company>
-            <name>New York Life Insurance</name>
-            <total>2215</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>CFA</symbol>
-        <released_date>43545</released_date>
-        <price>644</price>
-        <company>
-            <name>Goldman Sachs Group</name>
-            <total>3744</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>KRU</symbol>
-        <released_date>38517</released_date>
-        <price>993</price>
-        <company>
-            <name>American Airlines Group</name>
-            <total>4932</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>EPY</symbol>
-        <released_date>38565</released_date>
-        <price>267</price>
-        <company>
-            <name>Best Buy</name>
-            <total>4165</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>DAE</symbol>
-        <released_date>37056</released_date>
-        <price>399</price>
-        <company>
-            <name>Cigna</name>
-            <total>3697</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>XBY</symbol>
-        <released_date>37445</released_date>
-        <price>749</price>
-        <company>
-            <name>Charter Communications</name>
-            <total>6639</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>OHI</symbol>
-        <released_date>37483</released_date>
-        <price>669</price>
-        <company>
-            <name>Delta Air Lines</name>
-            <total>206</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>OQZ</symbol>
-        <released_date>37587</released_date>
-        <price>769</price>
-        <company>
-            <name>Facebook</name>
-            <total>7461</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>UBG</symbol>
-        <released_date>38274</released_date>
-        <price>675</price>
-        <company>
-            <name>Honeywell International</name>
-            <total>7478</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>LWF</symbol>
-        <released_date>38439</released_date>
-        <price>292</price>
-        <company>
-            <name>Merck</name>
-            <total>4639</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>AMW</symbol>
-        <released_date>38485</released_date>
-        <price>305</price>
-        <company>
-            <name>Allstate</name>
-            <total>5710</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>HYF</symbol>
-        <released_date>38517</released_date>
-        <price>525</price>
-        <company>
-            <name>Tyson Foods</name>
-            <total>8900</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>SJD</symbol>
-        <released_date>38565</released_date>
-        <price>509</price>
-        <company>
-            <name>United Continental Holdings</name>
-            <total>6520</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>JBS</symbol>
-        <released_date>38672</released_date>
-        <price>145</price>
-        <company>
-            <name>Oracle</name>
-            <total>6970</total>
-            <country>China</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>VIY</symbol>
-        <released_date>38890</released_date>
-        <price>376</price>
-        <company>
-            <name>Tech Data</name>
-            <total>1445</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>QJJ</symbol>
-        <released_date>38912</released_date>
-        <price>6</price>
-        <company>
-            <name>TIAA</name>
-            <total>4773</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>SAN</symbol>
-        <released_date>39492</released_date>
-        <price>886</price>
-        <company>
-            <name>TJX</name>
-            <total>946</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>AWF</symbol>
-        <released_date>39709</released_date>
-        <price>280</price>
-        <company>
-            <name>American Express</name>
-            <total>7721</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>SGV</symbol>
-        <released_date>40386</released_date>
-        <price>634</price>
-        <company>
-            <name>Coca-Cola</name>
-            <total>3722</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>CAK</symbol>
-        <released_date>40406</released_date>
-        <price>156</price>
-        <company>
-            <name>Publix Super Markets</name>
-            <total>7785</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>JAS</symbol>
-        <released_date>41311</released_date>
-        <price>595</price>
-        <company>
-            <name>Nike</name>
-            <total>8897</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>ACI</symbol>
-        <released_date>42347</released_date>
-        <price>683</price>
-        <company>
-            <name>Andeavor</name>
-            <total>8082</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>FJG</symbol>
-        <released_date>42751</released_date>
-        <price>231</price>
-        <company>
-            <name>World Fuel Services</name>
-            <total>2541</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>LHP</symbol>
-        <released_date>42919</released_date>
-        <price>237</price>
-        <company>
-            <name>Exelon</name>
-            <total>6528</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>ILC</symbol>
-        <released_date>43375</released_date>
-        <price>351</price>
-        <company>
-            <name>Mass Mutual Life Insurance</name>
-            <total>25</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>CKJ</symbol>
-        <released_date>43623</released_date>
-        <price>969</price>
-        <company>
-            <name>Rite Aid</name>
-            <total>1189</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>NJH</symbol>
-        <released_date>43636</released_date>
-        <price>176</price>
-        <company>
-            <name>ConocoPhillips</name>
-            <total>2260</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>VEZ</symbol>
-        <released_date>43804</released_date>
-        <price>256</price>
-        <company>
-            <name>CHS</name>
-            <total>6588</total>
-            <country>USA</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>XMP</symbol>
-        <released_date>42692</released_date>
-        <price>365</price>
-        <company>
-            <name>3M</name>
-            <total>5099</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>NSN</symbol>
-        <released_date>42811</released_date>
-        <price>297</price>
-        <company>
-            <name>Time Warner</name>
-            <total>8268</total>
-            <country>India</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>YRI</symbol>
-        <released_date>43154</released_date>
-        <price>6</price>
-        <company>
-            <name>General Dynamics</name>
-            <total>8677</total>
-            <country>Russia</country>
-        </company>
-    </stock>
-    <stock>
-        <symbol>TMG</symbol>
-        <released_date>43544</released_date>
-        <price>50</price>
-        <company>
-            <name>USAA</name>
-            <total>97</total>
-            <country>India</country>
-        </company>
-    </stock>
+  <stock>
+    <symbol>KCA</symbol>
+    <released_date>2002-03-11</released_date>
+    <price currency="USD">45.80</price>
+    <company>
+      <name>Walmart</name>
+      <total>151</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>VBK</symbol>
+    <released_date>2003-07-04</released_date>
+    <price currency="USD">65.90</price>
+    <company>
+      <name>Mobil</name>
+      <total>3036</total>
+      <country>CHINA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>QHD</symbol>
+    <released_date>2004-05-31</released_date>
+    <price currency="USD">82.50</price>
+    <company>
+      <name>Berkshire Hathaway</name>
+      <total>6482</total>
+      <country>CHINA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>MVG</symbol>
+    <released_date>2006-03-01</released_date>
+    <price currency="USD">80.90</price>
+    <company>
+      <name>Apple</name>
+      <total>1996</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>QEF</symbol>
+    <released_date>2006-06-09</released_date>
+    <price currency="USD">7.50</price>
+    <company>
+      <name>GnitedWealth Group</name>
+      <total>178</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>ZMA</symbol>
+    <released_date>2006-12-11</released_date>
+    <price currency="USD">92.80</price>
+    <company>
+      <name>McKesson</name>
+      <total>6340</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>SMF</symbol>
+    <released_date>2006-12-29</released_date>
+    <price currency="USD">52.70</price>
+    <company>
+      <name>ZKA Health</name>
+      <total>2284</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>UOJ</symbol>
+    <released_date>2007-05-03</released_date>
+    <price currency="USD">28.40</price>
+    <company>
+      <name>Amazon</name>
+      <total>2495</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>RWO</symbol>
+    <released_date>2007-05-08</released_date>
+    <price currency="USD">21.50</price>
+    <company>
+      <name>AT&amp;T</name>
+      <total>9065</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>EMQ</symbol>
+    <released_date>2008-02-12</released_date>
+    <price currency="USD">88.10</price>
+    <company>
+      <name>Mahindra Motors</name>
+      <total>1571</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>ASJ</symbol>
+    <released_date>2009-07-21</released_date>
+    <price currency="USD">34.60</price>
+    <company>
+      <name>Ford Indica</name>
+      <total>4806</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>MAG</symbol>
+    <released_date>2009-11-19</released_date>
+    <price currency="USD">55.00</price>
+    <company>
+      <name>Amerlan</name>
+      <total>1752</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>YHN</symbol>
+    <released_date>2011-11-04</released_date>
+    <price currency="USD">69.40</price>
+    <company>
+      <name>Chevolet</name>
+      <total>1755</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>MVX</symbol>
+    <released_date>2012-12-14</released_date>
+    <price currency="USD">89.40</price>
+    <company>
+      <name>Cardinal</name>
+      <total>2300</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>OWT</symbol>
+    <released_date>2013-02-12</released_date>
+    <price currency="USD">46.60</price>
+    <company>
+      <name>Cosco</name>
+      <total>8675</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>IMC</symbol>
+    <released_date>2013-05-13</released_date>
+    <price currency="USD">94.30</price>
+    <company>
+      <name>Verizon</name>
+      <total>2398</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>BFT</symbol>
+    <released_date>2015-01-05</released_date>
+    <price currency="USD">76.40</price>
+    <company>
+      <name>Kohls</name>
+      <total>1721</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>ZJP</symbol>
+    <released_date>2015-01-09</released_date>
+    <price currency="USD">42.90</price>
+    <company>
+      <name>General sukp</name>
+      <total>3437</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>GFJ</symbol>
+    <released_date>2016-02-12</released_date>
+    <price currency="USD">60.20</price>
+    <company>
+      <name>Walgreens</name>
+      <total>27</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>DCU</symbol>
+    <released_date>2016-05-04</released_date>
+    <price currency="USD">99.40</price>
+    <company>
+      <name>JPMorgan Chase</name>
+      <total>2836</total>
+      <country>CHINA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>TTE</symbol>
+    <released_date>2016-08-31</released_date>
+    <price currency="USD">5.60</price>
+    <company>
+      <name>Fannie Mae</name>
+      <total>6666</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>NVE</symbol>
+    <released_date>2017-01-24</released_date>
+    <price currency="USD" >79.30</price>
+    <company>
+      <name>Walmart</name>
+      <total>8749</total>
+      <country>CHINA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>QJP</symbol>
+    <released_date>2017-05-09</released_date>
+    <price currency="USD">75.30</price>
+    <company>
+      <name>Home Depot</name>
+      <total>1986</total>
+      <country>CHINA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>QTJ</symbol>
+    <released_date>2019-03-12</released_date>
+    <price currency="USD">98.60</price>
+    <company>
+      <name>Bank of America Corp.</name>
+      <total>3670</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>SEF</symbol>
+    <released_date>2019-04-02</released_date>
+    <price currency="USD">32.60</price>
+    <company>
+      <name>Express Scripts Holding</name>
+      <total>9759</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>OFJ</symbol>
+    <released_date>2002-03-07</released_date>
+    <price currency="USD">5.20</price>
+    <company>
+      <name>Wells Fargo</name>
+      <total>1589</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>AQR</symbol>
+    <released_date>2002-11-27</released_date>
+    <price currency="USD">43.80</price>
+    <company>
+      <name>Boeing</name>
+      <total>7895</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>ASU</symbol>
+    <released_date>2003-08-22</released_date>
+    <price currency="USD">92.50</price>
+    <company>
+      <name>Phillips 66</name>
+      <total>3781</total>
+      <country>CHINA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>HER</symbol>
+    <released_date>2005-02-15</released_date>
+    <price currency="USD">55.60</price>
+    <company>
+      <name>Anthem</name>
+      <total>637</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>RRS</symbol>
+    <released_date>2005-09-26</released_date>
+    <price currency="USD">36.70</price>
+    <company>
+      <name>Microsoft</name>
+      <total>4505</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>GFB</symbol>
+    <released_date>2006-05-15</released_date>
+    <price currency="USD">13.50</price>
+    <company>
+      <name>Valero Energy</name>
+      <total>8437</total>
+      <country>CHINA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>AYM</symbol>
+    <released_date>2006-08-04</released_date>
+    <price currency="USD">93.30</price>
+    <company>
+      <name>Citigroup</name>
+      <total>7149</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>MOG</symbol>
+    <released_date>2006-12-26</released_date>
+    <price currency="USD">82.70</price>
+    <company>
+      <name>Comcast</name>
+      <total>8596</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>HHH</symbol>
+    <released_date>2007-08-21</released_date>
+    <price currency="USD">67.60</price>
+    <company>
+      <name>IBM</name>
+      <total>8290</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>SMR</symbol>
+    <released_date>2007-10-29</released_date>
+    <price currency="USD">37.10</price>
+    <company>
+      <name>Dell Technologies</name>
+      <total>9749</total>
+      <country>CHINA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>PET</symbol>
+    <released_date>2007-11-01</released_date>
+    <price currency="USD">1.80</price>
+    <company>
+      <name>State Farm Insurance Cos.</name>
+      <total>4800</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>VOC</symbol>
+    <released_date>2007-11-15</released_date>
+    <price currency="USD">71.30</price>
+    <company>
+      <name>Johnson &amp; Johnson</name>
+      <total>2980</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>EBZ</symbol>
+    <released_date>2007-12-31</released_date>
+    <price currency="USD">5.90</price>
+    <company>
+      <name>Freddie Mac</name>
+      <total>5756</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>OOG</symbol>
+    <released_date>2008-05-29</released_date>
+    <price currency="USD">85.00</price>
+    <company>
+      <name>Target</name>
+      <total>1882</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>UPO</symbol>
+    <released_date>2008-06-16</released_date>
+    <price currency="USD">4.30</price>
+    <company>
+      <name>Lowes</name>
+      <total>69</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>LUF</symbol>
+    <released_date>2009-04-22</released_date>
+    <price currency="USD">9.80</price>
+    <company>
+      <name>Marathon Petroleum</name>
+      <total>3715</total>
+      <country>CHINA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>IYU</symbol>
+    <released_date>2009-05-27</released_date>
+    <price currency="USD">12.90</price>
+    <company>
+      <name>Procter &amp; Gamble</name>
+      <total>2812</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>OHV</symbol>
+    <released_date>2010-03-10</released_date>
+    <price currency="USD">11.80</price>
+    <company>
+      <name>MetLife</name>
+      <total>7397</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>CRC</symbol>
+    <released_date>2010-08-11</released_date>
+    <price currency="USD">14.40</price>
+    <company>
+      <name>UPS</name>
+      <total>939</total>
+      <country>CHINA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>QWN</symbol>
+    <released_date>2013-03-15</released_date>
+    <price currency="USD">21.60</price>
+    <company>
+      <name>PepsiCo</name>
+      <total>6249</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>DPG</symbol>
+    <released_date>2013-09-17</released_date>
+    <price currency="USD">36.10</price>
+    <company>
+      <name>Intel</name>
+      <total>8013</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>SGG</symbol>
+    <released_date>2016-09-01</released_date>
+    <price currency="USD">50.80</price>
+    <company>
+      <name>DowDuPont</name>
+      <total>8716</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>VNH</symbol>
+    <released_date>2017-03-09</released_date>
+    <price currency="USD">79.20</price>
+    <company>
+      <name>Archer Daniels Midland</name>
+      <total>8004</total>
+      <country>CHINA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>NWQ</symbol>
+    <released_date>2017-05-15</released_date>
+    <price currency="USD">41.90</price>
+    <company>
+      <name>Aetna</name>
+      <total>4077</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>ZEC</symbol>
+    <released_date>2016-02-17</released_date>
+    <price currency="USD">21.00</price>
+    <company>
+      <name>FedEx</name>
+      <total>5061</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>FGO</symbol>
+    <released_date>2016-04-14</released_date>
+    <price currency="USD">67.00</price>
+    <company>
+      <name>United Technologies</name>
+      <total>5093</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>AMP</symbol>
+    <released_date>2016-05-10</released_date>
+    <price currency="USD">16.10</price>
+    <company>
+      <name>Prudential Financial</name>
+      <total>6786</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>SUO</symbol>
+    <released_date>2016-05-26</released_date>
+    <price currency="USD">19.90</price>
+    <company>
+      <name>Albertsons Cos.</name>
+      <total>1689</total>
+      <country>CHINA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>ZYP</symbol>
+    <released_date>2016-07-11</released_date>
+    <price currency="USD">35.60</price>
+    <company>
+      <name>Sysco</name>
+      <total>352</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>VKE</symbol>
+    <released_date>2016-11-21</released_date>
+    <price currency="USD">90.70</price>
+    <company>
+      <name>Disney</name>
+      <total>9869</total>
+      <country>CHINA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>QHM</symbol>
+    <released_date>2016-11-22</released_date>
+    <price currency="USD">64.70</price>
+    <company>
+      <name>Humana</name>
+      <total>6459</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>QCX</symbol>
+    <released_date>2017-01-30</released_date>
+    <price currency="USD">96.30</price>
+    <company>
+      <name>Pfizer</name>
+      <total>2693</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>QPE</symbol>
+    <released_date>2017-02-15</released_date>
+    <price currency="USD">56.70</price>
+    <company>
+      <name>HP</name>
+      <total>7733</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>RTE</symbol>
+    <released_date>2017-08-02</released_date>
+    <price currency="USD">29.50</price>
+    <company>
+      <name>Lockheed Martin</name>
+      <total>89</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>KAK</symbol>
+    <released_date>2018-02-09</released_date>
+    <price currency="USD">2.10</price>
+    <company>
+      <name>AIG</name>
+      <total>2065</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>ILB</symbol>
+    <released_date>2018-04-04</released_date>
+    <price currency="USD">73.20</price>
+    <company>
+      <name>Centene</name>
+      <total>6525</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>MFA</symbol>
+    <released_date>2018-05-08</released_date>
+    <price currency="USD">80.60</price>
+    <company>
+      <name>Cisco Systems</name>
+      <total>5931</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>UOV</symbol>
+    <released_date>2018-08-21</released_date>
+    <price currency="USD">25.20</price>
+    <company>
+      <name>HCA Healthcare</name>
+      <total>2057</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>LJQ</symbol>
+    <released_date>2018-08-30</released_date>
+    <price currency="USD">27.70</price>
+    <company>
+      <name>Energy Transfer Equity</name>
+      <total>436</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>LII</symbol>
+    <released_date>2018-09-10</released_date>
+    <price currency="USD">47.90</price>
+    <company>
+      <name>Caterpillar</name>
+      <total>1389</total>
+      <country>CHINA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>HKZ</symbol>
+    <released_date>2018-11-09</released_date>
+    <price currency="USD">55.10</price>
+    <company>
+      <name>Nationwide</name>
+      <total>8431</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>MXG</symbol>
+    <released_date>2018-12-17</released_date>
+    <price currency="USD">76.00</price>
+    <company>
+      <name>Morgan Stanley</name>
+      <total>5575</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>NVM</symbol>
+    <released_date>2019-05-17</released_date>
+    <price currency="USD">58.50</price>
+    <company>
+      <name>Liberty Mutual Insurance Group</name>
+      <total>8349</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>BTG</symbol>
+    <released_date>2019-10-17</released_date>
+    <price currency="USD">64.70</price>
+    <company>
+      <name>New York Life Insurance</name>
+      <total>2215</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>XFQ</symbol>
+    <released_date>2019-03-21</released_date>
+    <price currency="USD">64.40</price>
+    <company>
+      <name>Goldman Sachs Group</name>
+      <total>3744</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>ELI</symbol>
+    <released_date>2005-06-14</released_date>
+    <price currency="USD">99.30</price>
+    <company>
+      <name>American Airlines Group</name>
+      <total>4932</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>ZPZ</symbol>
+    <released_date>2005-08-01</released_date>
+    <price currency="USD">26.70</price>
+    <company>
+      <name>Best Buy</name>
+      <total>4165</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>MTU</symbol>
+    <released_date>2001-06-14</released_date>
+    <price currency="USD">39.90</price>
+    <company>
+      <name>Cigna</name>
+      <total>3697</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>KXN</symbol>
+    <released_date>2002-07-08</released_date>
+    <price currency="USD">74.90</price>
+    <company>
+      <name>Charter Communications</name>
+      <total>6639</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>FOR</symbol>
+    <released_date>2002-08-15</released_date>
+    <price currency="USD">66.90</price>
+    <company>
+      <name>Delta Air Lines</name>
+      <total>206</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>NJC</symbol>
+    <released_date>2002-11-27</released_date>
+    <price currency="USD">76.90</price>
+    <company>
+      <name>Facebook</name>
+      <total>7461</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>LRU</symbol>
+    <released_date>2004-10-14</released_date>
+    <price currency="USD">67.50</price>
+    <company>
+      <name>Honeywell International</name>
+      <total>7478</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>UEH</symbol>
+    <released_date>2005-03-28</released_date>
+    <price currency="USD">29.20</price>
+    <company>
+      <name>Merck</name>
+      <total>4639</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>YHU</symbol>
+    <released_date>2005-05-13</released_date>
+    <price currency="USD">30.50</price>
+    <company>
+      <name>Allstate</name>
+      <total>5710</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>XVC</symbol>
+    <released_date>2005-06-14</released_date>
+    <price currency="USD">52.50</price>
+    <company>
+      <name>Tyson Foods</name>
+      <total>8900</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>IZV</symbol>
+    <released_date>2005-08-01</released_date>
+    <price currency="USD">50.90</price>
+    <company>
+      <name>United Continental Holdings</name>
+      <total>6520</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>LWB</symbol>
+    <released_date>2005-11-16</released_date>
+    <price currency="USD">14.50</price>
+    <company>
+      <name>Oracle</name>
+      <total>6970</total>
+      <country>CHINA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>QBA</symbol>
+    <released_date>2006-06-22</released_date>
+    <price currency="USD">37.60</price>
+    <company>
+      <name>Tech Data</name>
+      <total>1445</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>EPO</symbol>
+    <released_date>2006-07-14</released_date>
+    <price currency="USD">0.60</price>
+    <company>
+      <name>TIAA</name>
+      <total>4773</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>CYN</symbol>
+    <released_date>2008-02-14</released_date>
+    <price currency="USD">88.60</price>
+    <company>
+      <name>TJX</name>
+      <total>946</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>RGF</symbol>
+    <released_date>2008-09-18</released_date>
+    <price currency="USD">28.00</price>
+    <company>
+      <name>American Express</name>
+      <total>7721</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>UEK</symbol>
+    <released_date>2010-07-27</released_date>
+    <price currency="USD">63.40</price>
+    <company>
+      <name>Coca-Cola</name>
+      <total>3722</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>UNM</symbol>
+    <released_date>2010-08-16</released_date>
+    <price currency="USD">15.60</price>
+    <company>
+      <name>Publix Super Markets</name>
+      <total>7785</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>BAW</symbol>
+    <released_date>2013-02-06</released_date>
+    <price currency="USD">59.50</price>
+    <company>
+      <name>Nike</name>
+      <total>8897</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>SLN</symbol>
+    <released_date>2015-12-09</released_date>
+    <price currency="USD">68.30</price>
+    <company>
+      <name>Andeavor</name>
+      <total>8082</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>XZA</symbol>
+    <released_date>2017-01-16</released_date>
+    <price currency="USD">23.10</price>
+    <company>
+      <name>World Fuel Services</name>
+      <total>2541</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>GIU</symbol>
+    <released_date>2017-07-03</released_date>
+    <price currency="USD">23.70</price>
+    <company>
+      <name>Exelon</name>
+      <total>6528</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>MMS</symbol>
+    <released_date>2018-10-02</released_date>
+    <price currency="USD">35.10</price>
+    <company>
+      <name>Mass Mutual Life Insurance</name>
+      <total>25</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>TWV</symbol>
+    <released_date>2019-06-07</released_date>
+    <price currency="USD">96.90</price>
+    <company>
+      <name>Rite Aid</name>
+      <total>1189</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>NSR</symbol>
+    <released_date>2019-06-20</released_date>
+    <price currency="USD">17.60</price>
+    <company>
+      <name>ConocoPhillips</name>
+      <total>2260</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>ENL</symbol>
+    <released_date>2019-12-05</released_date>
+    <price currency="USD">25.60</price>
+    <company>
+      <name>CHS</name>
+      <total>6588</total>
+      <country>USA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>GZM</symbol>
+    <released_date>2016-11-18</released_date>
+    <price currency="USD">36.50</price>
+    <company>
+      <name>3M</name>
+      <total>5099</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>PKA</symbol>
+    <released_date>2017-03-17</released_date>
+    <price currency="USD">29.70</price>
+    <company>
+      <name>Time Warner</name>
+      <total>8268</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>EOV</symbol>
+    <released_date>2018-02-23</released_date>
+    <price currency="USD">0.60</price>
+    <company>
+      <name>General Dynamics</name>
+      <total>86,77</total>
+      <country>RUSSIA</country>
+    </company>
+  </stock>
+  <stock>
+    <symbol>PDJ</symbol>
+    <released_date>2019-03-20</released_date>
+    <price currency="USD">5.00</price>
+    <company>
+      <name>USAA</name>
+      <total>97</total>
+      <country>INDIA</country>
+    </company>
+  </stock>
 </stocks>
