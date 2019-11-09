@@ -1,0 +1,1005 @@
+{
+    "stocks": {
+        "stock": [{
+                "symbol": "RJA",
+                "released_date": "37326",
+                "price": "458",
+                "company": {
+                    "name": "Walmart",
+                    "total": "151",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "QWH",
+                "released_date": "37806",
+                "price": "659",
+                "company": {
+                    "name": "Exxon Mobil",
+                    "total": "3036",
+                    "country": "China"
+                }
+            },
+            {
+                "symbol": "YFB",
+                "released_date": "38138",
+                "price": "825",
+                "company": {
+                    "name": "Berkshire Hathaway",
+                    "total": "6482",
+                    "country": "China"
+                }
+            },
+            {
+                "symbol": "XTN",
+                "released_date": "38777",
+                "price": "809",
+                "company": {
+                    "name": "Apple",
+                    "total": "1996",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "TZX",
+                "released_date": "38877",
+                "price": "75",
+                "company": {
+                    "name": "UnitedHealth Group",
+                    "total": "178",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "TVB",
+                "released_date": "39062",
+                "price": "928",
+                "company": {
+                    "name": "McKesson",
+                    "total": "6340",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "GFD",
+                "released_date": "39080",
+                "price": "527",
+                "company": {
+                    "name": "CVS Health",
+                    "total": "2284",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "TVX",
+                "released_date": "39205",
+                "price": "284",
+                "company": {
+                    "name": "Amazon.com",
+                    "total": "2495",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "KVB",
+                "released_date": "39210",
+                "price": "215",
+                "company": {
+                    "name": "AT&T",
+                    "total": "9065",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "KEE",
+                "released_date": "39490",
+                "price": "881",
+                "company": {
+                    "name": "General Motors",
+                    "total": "1571",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "GSL",
+                "released_date": "40015",
+                "price": "346",
+                "company": {
+                    "name": "Ford Motor",
+                    "total": "4806",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "JAC",
+                "released_date": "40136",
+                "price": "550",
+                "company": {
+                    "name": "AmerisourceBergen",
+                    "total": "1752",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "MBZ",
+                "released_date": "40851",
+                "price": "694",
+                "company": {
+                    "name": "Chevron",
+                    "total": "1755",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "UOB",
+                "released_date": "41257",
+                "price": "894",
+                "company": {
+                    "name": "Cardinal Health",
+                    "total": "2300",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "MDM",
+                "released_date": "41317",
+                "price": "466",
+                "company": {
+                    "name": "Costco",
+                    "total": "8675",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "ZST",
+                "released_date": "41407",
+                "price": "943",
+                "company": {
+                    "name": "Verizon",
+                    "total": "2398",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "JRH",
+                "released_date": "42009",
+                "price": "764",
+                "company": {
+                    "name": "Kroger",
+                    "total": "1721",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "WHP",
+                "released_date": "42013",
+                "price": "429",
+                "company": {
+                    "name": "General Electric",
+                    "total": "3437",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "OGG",
+                "released_date": "42412",
+                "price": "602",
+                "company": {
+                    "name": "Walgreens Boots Alliance",
+                    "total": "27",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "TXK",
+                "released_date": "42494",
+                "price": "994",
+                "company": {
+                    "name": "JPMorgan Chase",
+                    "total": "2836",
+                    "country": "China"
+                }
+            },
+            {
+                "symbol": "KKW",
+                "released_date": "42613",
+                "price": "56",
+                "company": {
+                    "name": "Fannie Mae",
+                    "total": "6666",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "GNV",
+                "released_date": "42759",
+                "price": "793",
+                "company": {
+                    "name": "Alphabet",
+                    "total": "8749",
+                    "country": "China"
+                }
+            },
+            {
+                "symbol": "BEF",
+                "released_date": "42864",
+                "price": "753",
+                "company": {
+                    "name": "Home Depot",
+                    "total": "1986",
+                    "country": "China"
+                }
+            },
+            {
+                "symbol": "ROQ",
+                "released_date": "43536",
+                "price": "986",
+                "company": {
+                    "name": "Bank of America Corp.",
+                    "total": "3670",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "SOX",
+                "released_date": "43557",
+                "price": "326",
+                "company": {
+                    "name": "Express Scripts Holding",
+                    "total": "9759",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "AUA",
+                "released_date": "37322",
+                "price": "52",
+                "company": {
+                    "name": "Wells Fargo",
+                    "total": "1589",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "CIE",
+                "released_date": "37587",
+                "price": "438",
+                "company": {
+                    "name": "Boeing",
+                    "total": "7895",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "VCJ",
+                "released_date": "37855",
+                "price": "925",
+                "company": {
+                    "name": "Phillips 66",
+                    "total": "3781",
+                    "country": "China"
+                }
+            },
+            {
+                "symbol": "KUL",
+                "released_date": "38398",
+                "price": "556",
+                "company": {
+                    "name": "Anthem",
+                    "total": "637",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "SNT",
+                "released_date": "38621",
+                "price": "367",
+                "company": {
+                    "name": "Microsoft",
+                    "total": "4505",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "VTA",
+                "released_date": "38852",
+                "price": "135",
+                "company": {
+                    "name": "Valero Energy",
+                    "total": "8437",
+                    "country": "China"
+                }
+            },
+            {
+                "symbol": "VLP",
+                "released_date": "38933",
+                "price": "933",
+                "company": {
+                    "name": "Citigroup",
+                    "total": "7149",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "HWR",
+                "released_date": "39077",
+                "price": "827",
+                "company": {
+                    "name": "Comcast",
+                    "total": "8596",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "CQW",
+                "released_date": "39315",
+                "price": "676",
+                "company": {
+                    "name": "IBM",
+                    "total": "8290",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "YVA",
+                "released_date": "39384",
+                "price": "371",
+                "company": {
+                    "name": "Dell Technologies",
+                    "total": "9749",
+                    "country": "China"
+                }
+            },
+            {
+                "symbol": "HCN",
+                "released_date": "39387",
+                "price": "18",
+                "company": {
+                    "name": "State Farm Insurance Cos.",
+                    "total": "4800",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "GAX",
+                "released_date": "39401",
+                "price": "713",
+                "company": {
+                    "name": "Johnson & Johnson",
+                    "total": "2980",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "GZV",
+                "released_date": "39447",
+                "price": "59",
+                "company": {
+                    "name": "Freddie Mac",
+                    "total": "5756",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "TZG",
+                "released_date": "39597",
+                "price": "850",
+                "company": {
+                    "name": "Target",
+                    "total": "1882",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "FDX",
+                "released_date": "39615",
+                "price": "43",
+                "company": {
+                    "name": "Lowes",
+                    "total": "69",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "KMP",
+                "released_date": "39925",
+                "price": "98",
+                "company": {
+                    "name": "Marathon Petroleum",
+                    "total": "3715",
+                    "country": "China"
+                }
+            },
+            {
+                "symbol": "SHZ",
+                "released_date": "39960",
+                "price": "129",
+                "company": {
+                    "name": "Procter & Gamble",
+                    "total": "2812",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "ZUU",
+                "released_date": "40247",
+                "price": "118",
+                "company": {
+                    "name": "MetLife",
+                    "total": "7397",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "OFQ",
+                "released_date": "40401",
+                "price": "144",
+                "company": {
+                    "name": "UPS",
+                    "total": "939",
+                    "country": "China"
+                }
+            },
+            {
+                "symbol": "CQH",
+                "released_date": "41348",
+                "price": "216",
+                "company": {
+                    "name": "PepsiCo",
+                    "total": "6249",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "NZC",
+                "released_date": "41534",
+                "price": "361",
+                "company": {
+                    "name": "Intel",
+                    "total": "8013",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "KGX",
+                "released_date": "42614",
+                "price": "508",
+                "company": {
+                    "name": "DowDuPont",
+                    "total": "8716",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "HRT",
+                "released_date": "42803",
+                "price": "792",
+                "company": {
+                    "name": "Archer Daniels Midland",
+                    "total": "8004",
+                    "country": "China"
+                }
+            },
+            {
+                "symbol": "DQS",
+                "released_date": "42870",
+                "price": "419",
+                "company": {
+                    "name": "Aetna",
+                    "total": "4077",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "XFG",
+                "released_date": "42417",
+                "price": "210",
+                "company": {
+                    "name": "FedEx",
+                    "total": "5061",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "XKV",
+                "released_date": "42474",
+                "price": "670",
+                "company": {
+                    "name": "United Technologies",
+                    "total": "5093",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "IJT",
+                "released_date": "42500",
+                "price": "161",
+                "company": {
+                    "name": "Prudential Financial",
+                    "total": "6786",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "DOF",
+                "released_date": "42516",
+                "price": "199",
+                "company": {
+                    "name": "Albertsons Cos.",
+                    "total": "1689",
+                    "country": "China"
+                }
+            },
+            {
+                "symbol": "EJG",
+                "released_date": "42562",
+                "price": "356",
+                "company": {
+                    "name": "Sysco",
+                    "total": "352",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "XSJ",
+                "released_date": "42695",
+                "price": "907",
+                "company": {
+                    "name": "Disney",
+                    "total": "9869",
+                    "country": "China"
+                }
+            },
+            {
+                "symbol": "RBA",
+                "released_date": "42696",
+                "price": "647",
+                "company": {
+                    "name": "Humana",
+                    "total": "6459",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "HMR",
+                "released_date": "42765",
+                "price": "963",
+                "company": {
+                    "name": "Pfizer",
+                    "total": "2693",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "DCE",
+                "released_date": "42781",
+                "price": "567",
+                "company": {
+                    "name": "HP",
+                    "total": "7733",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "TCI",
+                "released_date": "42949",
+                "price": "295",
+                "company": {
+                    "name": "Lockheed Martin",
+                    "total": "89",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "MIC",
+                "released_date": "43140",
+                "price": "21",
+                "company": {
+                    "name": "AIG",
+                    "total": "2065",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "XOF",
+                "released_date": "43194",
+                "price": "732",
+                "company": {
+                    "name": "Centene",
+                    "total": "6525",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "YKZ",
+                "released_date": "43228",
+                "price": "806",
+                "company": {
+                    "name": "Cisco Systems",
+                    "total": "5931",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "RAV",
+                "released_date": "43333",
+                "price": "252",
+                "company": {
+                    "name": "HCA Healthcare",
+                    "total": "2057",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "MEI",
+                "released_date": "43342",
+                "price": "277",
+                "company": {
+                    "name": "Energy Transfer Equity",
+                    "total": "436",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "UIB",
+                "released_date": "43353",
+                "price": "479",
+                "company": {
+                    "name": "Caterpillar",
+                    "total": "1389",
+                    "country": "China"
+                }
+            },
+            {
+                "symbol": "ZXC",
+                "released_date": "43413",
+                "price": "551",
+                "company": {
+                    "name": "Nationwide",
+                    "total": "8431",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "OCS",
+                "released_date": "43451",
+                "price": "760",
+                "company": {
+                    "name": "Morgan Stanley",
+                    "total": "5575",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "VRS",
+                "released_date": "43602",
+                "price": "585",
+                "company": {
+                    "name": "Liberty Mutual Insurance Group",
+                    "total": "8349",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "RPZ",
+                "released_date": "43755",
+                "price": "647",
+                "company": {
+                    "name": "New York Life Insurance",
+                    "total": "2215",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "CFA",
+                "released_date": "43545",
+                "price": "644",
+                "company": {
+                    "name": "Goldman Sachs Group",
+                    "total": "3744",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "KRU",
+                "released_date": "38517",
+                "price": "993",
+                "company": {
+                    "name": "American Airlines Group",
+                    "total": "4932",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "EPY",
+                "released_date": "38565",
+                "price": "267",
+                "company": {
+                    "name": "Best Buy",
+                    "total": "4165",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "DAE",
+                "released_date": "37056",
+                "price": "399",
+                "company": {
+                    "name": "Cigna",
+                    "total": "3697",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "XBY",
+                "released_date": "37445",
+                "price": "749",
+                "company": {
+                    "name": "Charter Communications",
+                    "total": "6639",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "OHI",
+                "released_date": "37483",
+                "price": "669",
+                "company": {
+                    "name": "Delta Air Lines",
+                    "total": "206",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "OQZ",
+                "released_date": "37587",
+                "price": "769",
+                "company": {
+                    "name": "Facebook",
+                    "total": "7461",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "UBG",
+                "released_date": "38274",
+                "price": "675",
+                "company": {
+                    "name": "Honeywell International",
+                    "total": "7478",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "LWF",
+                "released_date": "38439",
+                "price": "292",
+                "company": {
+                    "name": "Merck",
+                    "total": "4639",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "AMW",
+                "released_date": "38485",
+                "price": "305",
+                "company": {
+                    "name": "Allstate",
+                    "total": "5710",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "HYF",
+                "released_date": "38517",
+                "price": "525",
+                "company": {
+                    "name": "Tyson Foods",
+                    "total": "8900",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "SJD",
+                "released_date": "38565",
+                "price": "509",
+                "company": {
+                    "name": "United Continental Holdings",
+                    "total": "6520",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "JBS",
+                "released_date": "38672",
+                "price": "145",
+                "company": {
+                    "name": "Oracle",
+                    "total": "6970",
+                    "country": "China"
+                }
+            },
+            {
+                "symbol": "VIY",
+                "released_date": "38890",
+                "price": "376",
+                "company": {
+                    "name": "Tech Data",
+                    "total": "1445",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "QJJ",
+                "released_date": "38912",
+                "price": "6",
+                "company": {
+                    "name": "TIAA",
+                    "total": "4773",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "SAN",
+                "released_date": "39492",
+                "price": "886",
+                "company": {
+                    "name": "TJX",
+                    "total": "946",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "AWF",
+                "released_date": "39709",
+                "price": "280",
+                "company": {
+                    "name": "American Express",
+                    "total": "7721",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "SGV",
+                "released_date": "40386",
+                "price": "634",
+                "company": {
+                    "name": "Coca-Cola",
+                    "total": "3722",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "CAK",
+                "released_date": "40406",
+                "price": "156",
+                "company": {
+                    "name": "Publix Super Markets",
+                    "total": "7785",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "JAS",
+                "released_date": "41311",
+                "price": "595",
+                "company": {
+                    "name": "Nike",
+                    "total": "8897",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "ACI",
+                "released_date": "42347",
+                "price": "683",
+                "company": {
+                    "name": "Andeavor",
+                    "total": "8082",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "FJG",
+                "released_date": "42751",
+                "price": "231",
+                "company": {
+                    "name": "World Fuel Services",
+                    "total": "2541",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "LHP",
+                "released_date": "42919",
+                "price": "237",
+                "company": {
+                    "name": "Exelon",
+                    "total": "6528",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "ILC",
+                "released_date": "43375",
+                "price": "351",
+                "company": {
+                    "name": "Mass Mutual Life Insurance",
+                    "total": "25",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "CKJ",
+                "released_date": "43623",
+                "price": "969",
+                "company": {
+                    "name": "Rite Aid",
+                    "total": "1189",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "NJH",
+                "released_date": "43636",
+                "price": "176",
+                "company": {
+                    "name": "ConocoPhillips",
+                    "total": "2260",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "VEZ",
+                "released_date": "43804",
+                "price": "256",
+                "company": {
+                    "name": "CHS",
+                    "total": "6588",
+                    "country": "USA"
+                }
+            },
+            {
+                "symbol": "XMP",
+                "released_date": "42692",
+                "price": "365",
+                "company": {
+                    "name": "3M",
+                    "total": "5099",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "NSN",
+                "released_date": "42811",
+                "price": "297",
+                "company": {
+                    "name": "Time Warner",
+                    "total": "8268",
+                    "country": "India"
+                }
+            },
+            {
+                "symbol": "YRI",
+                "released_date": "43154",
+                "price": "6",
+                "company": {
+                    "name": "General Dynamics",
+                    "total": "86,77",
+                    "country": "Russia"
+                }
+            },
+            {
+                "symbol": "TMG",
+                "released_date": "43544",
+                "price": "50",
+                "company": {
+                    "name": "USAA",
+                    "total": "97",
+                    "country": "India"
+                }
+            }
+        ]
+    }
+}

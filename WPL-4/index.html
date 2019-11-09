@@ -1,0 +1,199 @@
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script>
+        var stocks, stock, symbol, rd, price, name, total, country;
+
+        function initialise() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    console.log(true);
+                    myFunction(this);
+                }
+            };
+            xhttp.open("GET", "stocks.xml", true);
+            xhttp.send();
+
+            function myFunction(xml) {
+                console.log('s');
+                xmlDoc = xml.responseXML;
+                var stocks = xmlDoc.getElementsByTagName("stocks")[0];
+
+                var stock = stocks.getElementsByTagName('stock');
+                var symbol = stocks.getElementsByTagName('symbol');
+                var rd = stocks.getElementsByTagName('released_date');
+                var price = stocks.getElementsByTagName('price');
+                var name = stocks.getElementsByTagName('name');
+                var total = stocks.getElementsByTagName('total');
+                var country = stocks.getElementsByTagName('country');
+                console.log(rd[0].firstChild.nodeValue);
+                display(stock, symbol, rd, price, name, total, country);
+                registerDOMListeneres();
+            }
+
+
+        }
+
+        //create table for displaying all 100 rows
+        function display(stock, symbol, rd, price, name, total, country) {
+            var table = document.getElementById("mainTable");
+
+            for (var i = 0; i < stock.length; i++) {
+                var row = '<tr id="row-' + (i + 1) + '"></tr>';
+                table.innerHTML = table.innerHTML + row;
+                var data = "<td>" + symbol[i].firstChild.nodeValue + "</td>";
+                data = data + "<td>" + rd[i].firstChild.nodeValue + "</td>";
+                data = data + "<td>" + price[i].firstChild.nodeValue + "</td>";
+                data = data + "<td>" + name[i].firstChild.nodeValue + "</td>";
+                data = data + "<td>" + total[i].firstChild.nodeValue + "</td>";
+                data = data + "<td>" + country[i].firstChild.nodeValue + "</td>";
+                document.getElementById('row-' + (i + 1)).innerHTML = data;
+            }
+        }
+
+
+
+        function xpathFinder(path, id) {
+            console.log(id);
+            var ans;
+            var txt = '';
+            var total = 0;
+            var nodes = xmlDoc.evaluate(path, xmlDoc, null, XPathResult.ANY_TYPE, null);
+            var result = nodes.iterateNext();
+            while (result) {
+                txt = txt + result.childNodes[0].nodeValue;
+                result = nodes.iterateNext();
+            }
+        }
+
+
+
+
+
+
+
+        function registerDOMListeneres() {
+            document.getElementById("q1").addEventListener("click", function() {
+                xpathFinder("//company[name='Walmart']/preceding-sibling::symbol|//company[name='Walmart']/preceding-sibling::price", "1");
+            });
+            document.getElementById("q2").addEventListener("click", function() {
+                var total = xpathFinder("sum(//company[name='Walmart']/preceding-sibling::price)", "2");
+                document.getElementById("ans").innerHTML = total;
+            });
+            document.getElementById("q3").addEventListener("click", function() {
+                xpathFinder("//company[country='Russia']/preceding-sibling::symbol|//company[country='Russia']/preceding-sibling::price|//company[country='Russia']/name", "3");
+            });
+            document.getElementById("q4").addEventListener("click", function() {
+                xpathFinder("//company[total>100]/preceding-sibling::symbol|//company[total>100]/preceding-sibling::price|//company[total>100]/name", "4");
+            });
+
+            document.addEventListener("#main", function() {
+                display(stock, symbol, rd, price, name, total, country);
+            });
+
+        }
+
+        initialise();
+    </script>
+    <style>
+        table {
+            width: 100%;
+            margin-top: 10px;
+            border-collapse: collapse;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        
+        nav {
+            width: 100%;
+            display: block;
+            border: 1px solid black;
+            padding: 25px;
+        }
+        
+        a {
+            width: 50%;
+            text-decoration: none;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        
+        #q1,
+        #q2,
+        #q3,
+        #q4,
+        #main {
+            cursor: pointer;
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#mainTable">Display XML in Table</a>
+        <a href="#xpath">Xpath Related Questions</a>
+    </nav>
+    <table id="mainTable">
+        <tr>
+            <th>Ticker Symbol</th>
+            <th>Release Date</th>
+            <th>Price</th>
+            <th>Company Name</th>
+            <th>Company Total</th>
+            <th>Company Country</th>
+        </tr>
+    </table>
+    <div id="xpath">
+        <h3 id="main">
+            Display Full XML in Table
+        </h3>
+        <h3 id="q1">
+            i) List Ticker Symbol and Cost of all the stocks for the same company/organization
+            <table id="q1Table">
+                <tr>
+                    <th>Ticker Symbol</th>
+                    <th>Cost</th>
+                </tr>
+            </table>
+        </h3>
+
+        <h3 id="q2">
+            ii) Total cost of all stocks for the same company/organization
+            <h4>Total Cost for<span id="company"> </span> is: <span id="ans"></span></h4>
+        </h3>
+
+        <h3 id="q3">
+            iii) List Ticker Symbol, Cost, and Organization Name of all the stocks from a particular country
+            <table id="q3Table">
+                <tr>
+                    <th>Ticker Symbol</th>
+                    <th>Cost</th>
+                    <th>Organization</th>
+                </tr>
+            </table>
+        </h3>
+
+        <h3 id="q4">
+            iv) List Ticker Symbol, Cost, and Organization Name of all the stocks from a company with more than 100 employees
+            <table>
+                <tr>
+                    <th>Ticker Symbol</th>
+                    <th>Cost</th>
+                    <th>Organization</th>
+                </tr>
+            </table>
+        </h3>
+    </div>
+</body>
+
+</html>
